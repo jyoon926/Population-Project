@@ -22,30 +22,27 @@ html {
         -ms-flex-align: center;
             align-items: center;
     z-index: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
   }
   .lander .text {
-    color: black;
+    color: white;
     padding: 90px 5vw;
   }
   .lander .text .t {
-    font-size: 11vw;
+    font-size: 14vw;
     font-weight: 700;
     line-height: 1;
     text-align: center;
     padding: 0 0 20px 0;
+    margin-bottom: 20px;
   }
   .lander .text .p {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     width: 90vw;
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 36px;
-  }
-  .lander .text .p b {
-    font-size: 1em;
-    font-weight: 600;
   }
   .lander .text a {
     text-align: center;
@@ -60,7 +57,7 @@ html {
   }
   hr {
     width: 100vw;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     border-top: none;
     position: relative;
     left: -5vw;
@@ -81,8 +78,8 @@ html {
     font-style: italic;
     padding: 5px 12px 0 10px;
     margin-right: 6px;
-    background: black;
-    color: #36D1DC;
+    background: white;
+    color: black;
   }
   #donate P a:hover {
     opacity: .8;
@@ -150,11 +147,11 @@ html {
     width: 100%;
     -webkit-filter: grayscale(0.9) opacity(0.8) contrast(1);
             filter: grayscale(0.9) opacity(0.8) contrast(1);
-    border: 1px solid black;
+    border: 1px solid white;
   }
   .bottom {
     width: 100vw;
-    color: black;
+    color: white;
     padding: 14px;
     text-align: center;
   }

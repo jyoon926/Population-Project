@@ -5,7 +5,7 @@ html {
 html {
   width: 100%;
   overflow-x: hidden;
-  background-color: #36D1DC;
+  background-color: black;
 }
 
 * {
@@ -14,13 +14,13 @@ html {
 }
 
 ::-moz-selection {
-  background: black;
-  color: #36D1DC;
+  background: white;
+  color: black;
 }
 
 ::selection {
-  background: black;
-  color: #36D1DC;
+  background: white;
+  color: black;
 }
 
 .transition {
@@ -41,17 +41,17 @@ body {
 h2 {
   font-size: 5em;
   line-height: 1;
-  color: black;
+  color: white;
 }
 
 p {
   font-size: 1em;
   line-height: 1.618;
-  color: black;
+  color: white;
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -65,13 +65,13 @@ a {
   position: fixed !important;
   height: 50px;
   width: 50px;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 50%;
   pointer-events: none;
 }
 
 .button {
-  color: black;
+  color: white;
   font-size: 1.1em;
   text-decoration: none;
   display: -webkit-box;
@@ -85,7 +85,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding: 14px 0 12px 0;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
   width: 134px;
 }
 
@@ -105,15 +105,15 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-  background: -webkit-gradient(linear, left top, left bottom, from(#36D1DC), to(#5B86E5));
-  background: linear-gradient(to bottom, #36D1DC, #5B86E5);
-  border-left: 1px solid black;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background: linear-gradient(to bottom, black, black);
+  border-left: 1px solid white;
 }
 
 ::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.5);
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -126,14 +126,13 @@ a {
   left: 0;
   width: 100vw;
   height: calc(100vh - 60px);
-  background: -webkit-gradient(linear, left top, left bottom, from(#36D1DC), to(#5B86E5));
-  background: linear-gradient(to bottom, #36D1DC, #5B86E5);
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background: linear-gradient(to bottom, black, black);
   z-index: -1;
 }
 
 @media screen and (min-width: 1050px) {
   .lander {
-    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -148,25 +147,22 @@ a {
         -ms-flex-align: start;
             align-items: flex-start;
     z-index: 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
   }
   .lander .text {
-    color: black;
+    color: white;
     padding: 80px;
   }
   .lander .text .t {
     font-size: 10vw;
     font-weight: 700;
     line-height: 1;
+    margin-bottom: 20px;
   }
   .lander .text .p {
-    font-size: 1em;
-    width: 600px;
+    font-size: 2.5em;
     margin-bottom: 36px;
-  }
-  .lander .text .p b {
-    font-size: 1em;
-    font-weight: 600;
+    font-weight: 300;
   }
   .lander #landerimg {
     position: absolute;
@@ -175,9 +171,9 @@ a {
     right: 80px;
     top: 0;
     margin-top: 17vh;
-    -webkit-filter: grayscale(0.9) opacity(0.7) contrast(1);
-            filter: grayscale(0.9) opacity(0.7) contrast(1);
-    border: 1px solid black;
+    -webkit-filter: grayscale(0.9) opacity(0.5) contrast(1);
+            filter: grayscale(0.9) opacity(0.5) contrast(1);
+    border: 1px solid white;
   }
   .content {
     width: 80vw;
@@ -185,7 +181,7 @@ a {
   }
   hr {
     width: 100vw;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     border-top: none;
     position: relative;
     left: -10vw;
@@ -206,8 +202,8 @@ a {
     font-style: italic;
     padding: 5px 12px 0 10px;
     margin-right: 6px;
-    background: black;
-    color: #36D1DC;
+    background: white;
+    color: black;
   }
   #donate P a:hover {
     opacity: .8;
@@ -261,11 +257,11 @@ a {
     width: 100%;
     -webkit-filter: grayscale(1) opacity(0.7) contrast(0.9);
             filter: grayscale(1) opacity(0.7) contrast(0.9);
-    border: 1px solid black;
+    border: 1px solid white;
   }
   .bottom {
     width: 100vw;
-    color: black;
+    color: white;
     padding: 14px;
     text-align: center;
   }

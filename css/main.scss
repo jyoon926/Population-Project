@@ -99,7 +99,6 @@ a {
 
 @media screen and (min-width: 1050px) {
     .lander {
-        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -115,15 +114,12 @@ a {
                 font-size: 10vw;
                 font-weight: 700;
                 line-height: 1;
+                margin-bottom: 20px;
             }
             .p {
-                font-size: 1em;
-                width: 600px;
+                font-size: 2.5em;
                 margin-bottom: 36px;
-                b {
-                    font-size: 1em;
-                    font-weight: 600;
-                }
+                font-weight: 300;
             }
         }
         #landerimg {
@@ -133,7 +129,7 @@ a {
             right: 80px;
             top: 0;
             margin-top: 17vh;
-            filter: grayscale(.9) opacity(.7) contrast(1);
+            filter: grayscale(.9) opacity(.5) contrast(1);
             border: 1px solid $dark;
         }
     }
