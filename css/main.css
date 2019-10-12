@@ -2,6 +2,29 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background: linear-gradient(to bottom, black, black);
+  border-left: 1px solid white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.75);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
 html {
   width: 100%;
   overflow-x: hidden;
@@ -100,26 +123,6 @@ a {
   padding: 14px 24px 12px 24px;
 }
 
-::-webkit-scrollbar {
-  width: 12px;
-}
-
-::-webkit-scrollbar-track {
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
-  background: linear-gradient(to bottom, black, black);
-  border-left: 1px solid white;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.5);
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: black;
-}
-
 #bg {
   position: fixed;
   top: 60px;
@@ -157,12 +160,13 @@ a {
     font-size: 10vw;
     font-weight: 700;
     line-height: 1;
-    margin-bottom: 20px;
+    margin: 20px 0;
   }
   .lander .text .p {
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 36px;
-    font-weight: 300;
+    font-weight: 400;
+    line-height: 1.2;
   }
   .lander #landerimg {
     position: absolute;
@@ -170,9 +174,9 @@ a {
     height: 30vw;
     right: 80px;
     top: 0;
-    margin-top: 17vh;
-    -webkit-filter: grayscale(0.9) opacity(0.5) contrast(1);
-            filter: grayscale(0.9) opacity(0.5) contrast(1);
+    margin-top: 6vh;
+    -webkit-filter: grayscale(0.9) opacity(0.6) contrast(1);
+            filter: grayscale(0.9) opacity(0.6) contrast(1);
     border: 1px solid white;
   }
   .content {
@@ -189,81 +193,49 @@ a {
   section {
     margin: 80px 0;
   }
-  #donate {
-    margin: 30px 0;
+  #section1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
-  #donate P {
-    text-align: center;
+  #section1 .text {
+    margin-bottom: 22px;
     font-size: 1.5em;
-    margin: 0 auto;
-    line-height: 1.4;
+    width: 60%;
+    margin-right: 60px;
   }
-  #donate P a {
-    font-style: italic;
-    padding: 5px 12px 0 10px;
-    margin-right: 6px;
-    background: white;
-    color: black;
-  }
-  #donate P a:hover {
-    opacity: .8;
-  }
-  #whatistsa {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  #whatistsa .part1 {
-    width: calc(50% - 70px);
-    margin-right: 70px;
-  }
-  #whatistsa .part1 h2 {
-    margin-bottom: 30px;
-  }
-  #whatistsa .part1 p {
-    margin-bottom: 22px;
-  }
-  #whatistsa .part2 p {
+  #section1 .math p {
     font-size: 3em;
-    line-height: 1.2;
+    font-weight: 300;
   }
-  #activities {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  #activities .part1 {
-    width: calc(50% + 70px);
-    margin-right: 70px;
-  }
-  #activities .part1 h2 {
+  #sources h2 {
     margin-bottom: 30px;
+    font-size: 6em;
   }
-  #activities .part1 p {
-    margin-bottom: 22px;
+  #sources li {
+    color: white;
+    list-style: none;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    text-indent: -2em;
+    padding-left: 2em;
+    line-height: 1.25;
   }
-  #activities .part2 {
-    width: calc(50% + 70px);
-  }
-  #activities .part2 img {
-    width: 100%;
-    -webkit-filter: grayscale(1) opacity(0.7) contrast(0.9);
-            filter: grayscale(1) opacity(0.7) contrast(0.9);
-    border: 1px solid white;
+  #sources li:last-child {
+    padding-bottom: 0;
   }
   .bottom {
     width: 100vw;
     color: white;
     padding: 14px;
     text-align: center;
+    border-top: 1px solid white;
+    left: 0;
+    margin: 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

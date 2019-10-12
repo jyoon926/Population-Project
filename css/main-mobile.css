@@ -2,6 +2,29 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background: linear-gradient(to bottom, black, black);
+  border-left: 1px solid white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.75);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+
 @media screen and (max-width: 1050px) {
   h2 {
     font-size: 3em;
@@ -27,26 +50,21 @@ html {
   .lander .text {
     color: white;
     padding: 90px 5vw;
+    text-align: left;
   }
   .lander .text .t {
     font-size: 14vw;
     font-weight: 700;
     line-height: 1;
-    text-align: center;
     padding: 0 0 20px 0;
     margin-bottom: 20px;
   }
   .lander .text .p {
-    text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     width: 90vw;
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 36px;
-  }
-  .lander .text a {
-    text-align: center;
-    margin: 0 auto;
   }
   .lander #landerimg {
     display: none;

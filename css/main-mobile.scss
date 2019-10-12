@@ -16,26 +16,21 @@
         .text {
             color: $dark;
             padding: 90px 5vw;
+            text-align: left;
 
             .t {
                 font-size: 14vw;
                 font-weight: 700;
                 line-height: 1;
-                text-align: center;
                 padding: 0 0 20px 0;
                 margin-bottom: 20px;
             }
             .p {
-                text-align: center;
-                font-size: 1.5em;
+                font-size: 2em;
                 width: 90vw;
                 max-width: 600px;
                 margin: 0 auto;
                 margin-bottom: 36px;
-            }
-            a {
-                text-align: center;
-                margin: 0 auto;
             }
         }
         #landerimg {

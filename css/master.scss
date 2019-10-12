@@ -5,3 +5,7 @@ $dark: white;
 html {
     scroll-behavior: smooth;
 }
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { background: linear-gradient(to bottom, $light,$mid); border-left: 1px solid $dark; }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.75); border-top: 1px solid $dark; border-bottom: 1px solid $dark; border-left: 1px solid $dark; transition-duration: .3s;;}
+::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 1); }

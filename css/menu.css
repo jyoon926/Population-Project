@@ -6,7 +6,7 @@ html {
   header {
     position: fixed;
     height: 60px;
-    background-color: #36D1DC;
+    background-color: black;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -21,7 +21,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     z-index: 3;
   }
   header div {
@@ -54,7 +54,7 @@ html {
             flex-direction: row;
   }
   header div #header-links a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin: 0 20px;
     padding: 22px 0;
@@ -74,25 +74,25 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border-bottom: #36D1DC 0px solid;
-    border-top: #36D1DC 0px solid;
+    border-bottom: black 0px solid;
+    border-top: black 0px solid;
   }
   header div #header-links :hover {
     padding: 18px 0;
-    border-bottom: black 4px solid;
-    border-top: #36D1DC 4px solid;
-    color: black;
+    border-bottom: white 4px solid;
+    border-top: black 4px solid;
+    color: white;
   }
   header div #contact-input {
     position: absolute;
     top: -20px;
   }
   header div #contact-button {
-    border-left: 1px solid black;
+    border-left: 1px solid white;
     padding: 22px;
     width: 140px;
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 1em;
     line-height: 1;
@@ -121,9 +121,9 @@ html {
     width: calc(100% - 160px);
     top: 80px;
     left: 80px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#36D1DC), to(#5B86E5));
-    background: linear-gradient(to bottom, #36D1DC, #5B86E5);
-    border: 1px solid black;
+    background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+    background: linear-gradient(to bottom, black, black);
+    border: 1px solid white;
     opacity: 0;
     -webkit-transform: scale(0);
             transform: scale(0);
@@ -159,7 +159,7 @@ html {
   }
   header div #contact .buttons a {
     padding: 14px 24px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-right: 20px;
   }
   header div #contact .buttons a:hover {
@@ -173,7 +173,7 @@ html {
     top: -1px;
     right: -1px;
     padding: 30px;
-    border: 1px solid black;
+    border: 1px solid white;
   }
   header div #contact #exit img {
     height: 40px;
@@ -201,7 +201,7 @@ html {
     position: fixed;
     height: 50px;
     top: 0;
-    background-color: #36D1DC;
+    background-color: black;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -216,7 +216,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     z-index: 3;
   }
   header div {
@@ -254,8 +254,8 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background: -webkit-gradient(linear, left top, left bottom, from(#36D1DC), to(#5B86E5));
-    background: linear-gradient(to bottom, #36D1DC, #5B86E5);
+    background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+    background: linear-gradient(to bottom, black, black);
     height: 100%;
     width: 100%;
     top: 0;
@@ -266,7 +266,7 @@ html {
             transition-duration: .6s;
     -webkit-transition-timing-function: cubic-bezier(0.64, 0, 0.31, 1);
             transition-timing-function: cubic-bezier(0.64, 0, 0.31, 1);
-    border-left: 1px solid black;
+    border-left: 1px solid white;
   }
   header div #header-links a {
     font-size: 2em;
@@ -282,7 +282,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
   }
   header div #header-links a:last-child {
     border-bottom: none;
@@ -305,9 +305,9 @@ html {
     top: 0;
     right: 0;
     height: 50px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    background: #36D1DC;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    background: black;
   }
   .menu-icon img {
     height: 26px;
