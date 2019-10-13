@@ -1,11 +1,11 @@
-$light: black;
-$mid: black;
-$dark: white;
+$light: #000;
+$mid: #000;
+$dark: #eee;
 
 html {
     scroll-behavior: smooth;
 }
 ::-webkit-scrollbar { width: 12px; }
-::-webkit-scrollbar-track { background: linear-gradient(to bottom, $light,$mid); border-left: 1px solid $dark; }
-::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.75); border-top: 1px solid $dark; border-bottom: 1px solid $dark; border-left: 1px solid $dark; transition-duration: .3s;;}
-::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 1); }
+::-webkit-scrollbar-track { background: $light; border-left: 1px solid $dark; }
+::-webkit-scrollbar-thumb { background: $dark; border-top: 1px solid $dark; border-bottom: 1px solid $dark; }
+::-webkit-scrollbar-thumb:hover { background: white; }

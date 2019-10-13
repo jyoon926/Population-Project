@@ -7,18 +7,14 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
-  background: linear-gradient(to bottom, black, black);
-  border-left: 1px solid white;
+  background: #000;
+  border-left: 1px solid #eee;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.75);
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
-  -webkit-transition-duration: .3s;
-          transition-duration: .3s;
+  background: #eee;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 ::-webkit-scrollbar-thumb:hover {
