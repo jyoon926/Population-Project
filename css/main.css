@@ -205,10 +205,35 @@ a {
   #section1 .text {
     margin-bottom: 22px;
     font-size: 1.5em;
-    width: 60%;
-    margin-right: 60px;
+    width: 50%;
+  }
+  #section1 .math {
+    width: 50%;
+    margin-left: 60px;
   }
   #section1 .math p {
+    font-size: 3em;
+    font-weight: 300;
+  }
+  #section2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #section2 .text {
+    margin-bottom: 22px;
+    font-size: 1.5em;
+    width: 50%;
+  }
+  #section2 .math {
+    width: 50%;
+    margin-left: 60px;
+  }
+  #section2 .math p {
     font-size: 3em;
     font-weight: 300;
   }
