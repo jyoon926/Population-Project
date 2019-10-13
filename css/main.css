@@ -191,7 +191,7 @@ a {
     left: -10vw;
   }
   section {
-    margin: 80px 0;
+    margin-top: 80px;
   }
   #section1 {
     display: -webkit-box;
@@ -214,6 +214,8 @@ a {
   #section1 .math p {
     font-size: 3em;
     font-weight: 300;
+    line-height: 1.15;
+    padding-bottom: 30px;
   }
   #section2 {
     display: -webkit-box;
@@ -235,7 +237,34 @@ a {
   }
   #section2 .math p {
     font-size: 3em;
+    line-height: 1.15;
+    padding-bottom: 30px;
     font-weight: 300;
+  }
+  .earths {
+    overflow: hidden;
+    height: 140px;
+    margin-bottom: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .earths img {
+    height: 140px;
+    margin-right: 30px;
+    -webkit-filter: saturate(0);
+            filter: saturate(0);
+  }
+  .earths p {
+    font-size: 100px;
+    color: white;
+  }
+  #sources {
+    margin-bottom: 80px;
   }
   #sources h2 {
     margin-bottom: 30px;
