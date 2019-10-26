@@ -99,6 +99,13 @@
             color: $dark;
         }
     }
+    .first {
+        padding: 50px 5vw;
+        width: 90vw;
+        margin-left: -5vw;
+        font-size: 1.5em;
+        background: rgba(255,255,255,.2);
+    }
     .earths {
         overflow: hidden;
         height: 80px;
