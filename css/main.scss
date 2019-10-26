@@ -103,13 +103,13 @@ a {
 
         .text {
             color: $dark;
-            padding: 80px;
+            padding: 100px;
 
             .t {
                 font-size: 10vw;
                 font-weight: 700;
                 line-height: 1;
-                margin: 20px 0;
+                margin: 40px 0 40px;
             }
             .p {
                 font-size: 3em;
@@ -162,6 +162,39 @@ a {
             }
         }
     }
+    .section_graph {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        .text {
+            margin-bottom: 22px;
+            font-size: 1.5em;
+            width: 50%;
+        }
+        .math {
+            width: 50%;
+            margin-left: 60px;
+            img {
+                width: 100%;
+                border-radius: 10px;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 1.5em;
+                text-align: center;
+                line-height: 1;
+            }
+        }
+    }
+    .more {
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: row;
+        p {
+            font-size: 1.1em;
+            color: $dark;
+        }
+    }
     .earths {
         overflow: hidden;
         height: 140px;
@@ -183,6 +216,13 @@ a {
         width: 80vw;
         margin-left: -10vw;
         font-size: 3em;
+        background: rgba(255,255,255,.2);
+    }
+    .first {
+        padding: 80px 10vw;
+        width: 80vw;
+        margin-left: -10vw;
+        font-size: 1.5em;
         background: rgba(255,255,255,.2);
     }
 

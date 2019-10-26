@@ -13,23 +13,32 @@
             <link rel="shortcut icon" type="image/x-icon" href="img/iconn.png" />
         </head>
         <body onload="init()">
+            <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+            <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
             <div id="cursor" onload="everyTick()"></div>
             <div id="bg"></div>
     
             <div class="lander">
                 <div class="text">
                     <p class="t">How Sustainable Are You?</p>
-                    <p class="p">We are on the verge of reaching the Earth's human carrying capacity, and as the human population continues to grow at an unprecedented rate, the rate of our consumption of the planet's valuable resources still increases uncontrollably, while the planet struggles to regenerate. </p>
+                    <p class="p">We are on the verge of reaching the Earth's human carrying capacity, but as the human population continues to grow at an unprecedented rate, the rate of our consumption of the planet's valuable resources still increases uncontrollably.</p>
                 </div>
                 <img id="landerimg" src="img/lander_image.jpg" alt="">
             </div>
 
             <div class="content">
+                <hr>
+                
+                    <section class="first">
+                        <p class="text"><i>"Poor children still die by their millions. Westerners and the global rich live in post-scarcity society, while a billion people struggle to get enough to eat. And we're pushing the planet towards a tipping point, where the corals die and the forests burn and life becomes much, much harder. We have the resources to solve those problems, even now, but politics and economics and nationalism all get in the way.”</i><br>- Ramez Naam</p>
+                    </section>
+    
+                <hr>
                 <section class="section">
-                    <p class="text">In 2017, the global energy output was <b><i><u>14,000 million tonnes of oil (Mtoe)</u></i></b>. This is the worldwide production of energy, extracted or captured directly from natural sources. In comparison, the average energy use per capita in a year in the USA was <b><i><u>6.79762 tonnes of oil</u></i></b> in 2015. If all 7.7 billion people on Earth were to live like the average American, we would need around <b><i><u>3.7 Earths</u></i></b> in order to satisfy our current demands and desires.</p>
+                    <p class="text">In 2017, the global energy output was <b><i><u>14,000 million tonnes of oil (Mtoe)</u></i></b>. This is the worldwide production of energy, extracted or captured directly from natural sources. In comparison, the average energy use per capita in a year in the USA was <b><i><u>6.8 tonnes of oil</u></i></b> in 2015. If all 7.7 billion people on Earth were to live like the average American, we would need around <b><i><u>3.7 Earths</u></i></b> in order to satisfy our current energy demands and desires.</p>
                     <div class="math">
-                        <p>6.79762 x 7.7 billion = 52,341.674 Mtoe</p>
-                        <p>52,341.674 million / 14,000 million = <b>3.738691 Earths</b></p>
+                        <p>6.8 x 7.7 billion = 52,360 Mtoe</p>
+                        <p>52,341.674 million / 14,000 million = <b>3.74 Earths</b></p>
                     </div>
                 </section>
                 <div class="earths">
@@ -39,7 +48,7 @@
                 <hr>
 
                 <section class="section">
-                    <p class="text">Another issue is water consumption. Fresh water is a limited and valuable resource on Earth, but our level of usage is extremely unsustainable. The withdrawal of freshwater per capita in the USA is around <b><i><u>1,600 cubic meters</u></i></b> per year. Roughly 0.4% of the earth’s water is usable and drinkable, which exists in lakes and rivers with a volume of <b><i><u>93,113 cubic kilometers</u></i></b>. If all 7.7 billion people on Earth were withdraw as much freshwater as the average American, we would need around <b><i><u>130,000 Earths</u></i></b>.</p>
+                    <p class="text">Another issue is water consumption. Freshwater is a limited and valuable resource on Earth, but our level of usage is extremely unsustainable. The withdrawal of freshwater per capita in the USA is around <b><i><u>1,600 cubic meters</u></i></b> per year. Roughly 0.4% of the earth’s water is usable and drinkable, which exists in lakes and rivers with a volume of <b><i><u>93,113 cubic kilometers</u></i></b>. If all 7.7 billion people on Earth were to withdraw as much freshwater as the average American, we would need around <b><i><u>130,000 Earths</u></i></b>.</p>
                     <div class="math">
                         <p>1,600 m<sup>3</sup> x 7.7 billion = 12,320 million km<sup>3</sup></p>
                         <p>12,320 million / 93,113 = <b>132,312 Earths</b></p>
@@ -51,27 +60,39 @@
                 </div>
 
                 <hr>
-                
-                <section class="last">
-                    <p class="text">It is now more important than ever to change our ways and make better choices on how we use our planet's limited resources. Population will continue to increase, but the Earth will not be able to adapt. </p>
+
+                <section class="section_graph">
+                    <p class="text">A standard measure of inequality is the Gini coefficient, G. The Gini coefficient 0 ≤ G ≤ 1 varies from zero at perfect equality, where everybody receives an equal share, to one at extreme inequality, where everybody receives nothing, except for one person who receives everything. Data from the U.S. Energy Information Administration (EIA) for 1980–2010 show that the Gini coefficient has decreased from 0.66 in 1980 to 0.55 in 2010, indicating an increase in equality.</p>
+                    <div class="math">
+                        <img src="img/graph.png" alt="">
+                        <p>Logistic Regression: $$y = {.16 \over 1+.01e^{-.16x}}+.5$$</p>
+                    </div>
                 </section>
+                <div class="more">
+                    <p class="text">This graph shows that the Gini coefficient is now close to the theoretical equilibrium value of 0.5. The reason for this decrease in inequality is the increase in energy use per capita in developing countries. The US locates at the top of the Lorenz curve all over the years, where the energy consumption per capita is much higher than all the other countries.<br><br>Although the decrease in energy inequality may seem to be a positive change, it actually proves that we are becoming increasingly unsustainable. Almost all the developed countries and developing countries are more and more relying on coal consumption, which makes energy more available, but also harms the planet.</p>
+                </div>
 
                 <hr>
+                
+                <!--<section class="last">
+                    <p class="text">It is now more important than ever to change our ways and make better choices on how we use our planet's limited resources. Population will continue to increase, but the Earth will not be able to adapt. </p>
+                </section>-->
 
                 <section id="sources">
                     <h2>Works Cited</h2>
                     <ul>
+                        <li>Dragulescu, A.A.; Yakovenko, V.M. Evidence for the exponential distribution of income in the USA. Eur. Phys. J. B 2001, 20, 585–589.</li>
                         <li>Drinking-Water. https://www.who.int/news-room/fact-sheets/detail/drinking-water. Accessed 13 Oct. 2019.</li>
                         <li>Energy Expenditures. http://www.leonardo-energy.org/blog/world-energy-expenditures.</li>
                         <li>Energy Use (Kg of Oil Equivalent per Capita) - United States | Data. https://data.worldbank.org/indicator/EG.USE.PCAP.KG.OE?end=2018&locations=US&start=1960&view=chart. Accessed 12 Oct. 2019.</li>
                         <li>How Much Water Is on and in the Earth, the USGS Water Science School. https://water.usgs.gov/edu/gallery/global-water-volume.html. Accessed 13 Oct. 2019.</li>
+                        <li>U.S. Energy Information Administration (EIA). https://www.eia.gov/cfapps/ipdbproject/iedindex3.cfm/. Accessed 26 Oct. 2019. </li>
                         <li>US EPA, OW. “How We Use Water.” US EPA, 16 Jan. 2017, https://www.epa.gov/watersense/how-we-use-water.</li>
                     </ul>
                 </section>
 
                 <hr>
                 <div class="bottom">Developed by Jacob Yoon</div>
-                <hr>
             </div>
     
             <script src="https://code.jquery.com/jquery-1.12.4.js"></script>

@@ -7,18 +7,14 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
-  background: linear-gradient(to bottom, black, black);
-  border-left: 1px solid white;
+  background: #000;
+  border-left: 1px solid #eee;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.75);
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  border-left: 1px solid white;
-  -webkit-transition-duration: .3s;
-          transition-duration: .3s;
+  background: #eee;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -45,10 +41,10 @@ html {
         -ms-flex-align: center;
             align-items: center;
     z-index: 0;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #eee;
   }
   .lander .text {
-    color: white;
+    color: #eee;
     padding: 90px 5vw 30px 5vw;
     text-align: left;
   }
@@ -74,7 +70,7 @@ html {
   }
   hr {
     width: 100vw;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #eee;
     border-top: none;
     position: relative;
     left: -5vw;
@@ -100,6 +96,45 @@ html {
     font-weight: 300;
     line-height: 1.15;
     padding-bottom: 30px;
+  }
+  .section_graph {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section_graph .text {
+    margin-bottom: 22px;
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .section_graph .math img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .section_graph .math p {
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 1;
+  }
+  .more {
+    margin-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .more p {
+    font-size: 1.1em;
+    color: #eee;
   }
   .earths {
     overflow: hidden;
@@ -148,7 +183,7 @@ html {
   }
   .bottom {
     width: 100%;
-    color: white;
+    color: #eee;
     padding: 14px;
     text-align: center;
   }
