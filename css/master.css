@@ -7,17 +7,27 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #000;
-  border-left: 1px solid #eee;
+  background: #cdc7c2;
+  border-left: 1px solid black;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #eee;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  border-right: none;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: white;
+  cursor: pointer;
+}
+
+::-moz-selection {
+  background: black;
+  color: #cdc7c2;
+}
+
+::selection {
+  background: black;
+  color: #cdc7c2;
 }
 /*# sourceMappingURL=master.css.map */

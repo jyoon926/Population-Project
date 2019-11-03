@@ -1,11 +1,14 @@
-$light: #000;
-$mid: #000;
-$dark: #eee;
+$light: black;
+$dark: #cdc7c2;
 
 html {
     scroll-behavior: smooth;
 }
 ::-webkit-scrollbar { width: 12px; }
-::-webkit-scrollbar-track { background: $light; border-left: 1px solid $dark; }
-::-webkit-scrollbar-thumb { background: $dark; border-top: 1px solid $dark; border-bottom: 1px solid $dark; }
-::-webkit-scrollbar-thumb:hover { background: white; }
+::-webkit-scrollbar-track { background: $dark; border-left: 1px solid $light; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,.5); border: 1px solid $light; border-right: none; }
+::-webkit-scrollbar-thumb:hover { cursor: pointer; }
+::selection {
+    background: $light;
+    color: $dark;
+}
