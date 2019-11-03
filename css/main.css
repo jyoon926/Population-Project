@@ -324,7 +324,7 @@ html {
   }
   #lander h1 {
     line-height: 1;
-    font-size: 7vw;
+    font-size: 9vw;
     font-weight: 500;
     line-height: 1;
     margin-bottom: 30px;
@@ -348,7 +348,7 @@ html {
     position: relative;
   }
   #section_1 {
-    padding: 40px 5%;
+    padding: 30px 5%;
     background: #cdc7c2;
   }
   #section_1 p {
@@ -368,7 +368,7 @@ html {
     left: -5vw;
   }
   .content .section_2 {
-    margin: 40px 0;
+    margin: 60px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -378,9 +378,9 @@ html {
             flex-direction: column;
   }
   .content .section_2 h2 {
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .content .section_2 .text {
     display: -webkit-box;
@@ -401,14 +401,14 @@ html {
     width: 100%;
   }
   .content .section_2 .text .math p {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.15;
     padding-bottom: 20px;
   }
   .content .section_2 .earths {
     margin-top: -20px;
     overflow: hidden;
-    height: 140px;
+    height: 80px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -421,17 +421,17 @@ html {
             align-items: center;
   }
   .content .section_2 .earths img {
-    height: 140px;
-    margin-right: 30px;
+    height: 80px;
+    margin-right: 15px;
     -webkit-filter: saturate(0);
             filter: saturate(0);
   }
   .content .section_2 .earths p {
-    font-size: 100px;
+    font-size: 2.5em;
     color: #cdc7c2;
   }
   .content .section_4 {
-    margin: 40px 0;
+    margin: 60px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -441,9 +441,9 @@ html {
             flex-direction: column;
   }
   .content .section_4 h2 {
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .content .section_4 .text {
     display: -webkit-box;
@@ -490,12 +490,12 @@ html {
     display: none;
   }
   .content #sources {
-    padding: 40px 0;
+    padding: 60px 0;
   }
   .content #sources h2 {
-    font-size: 4em;
+    font-size: 2.5em;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .content #sources ul {
     text-decoration: none;
