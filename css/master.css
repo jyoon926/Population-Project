@@ -7,7 +7,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #cdc7c2;
+  background: #dddddd;
   border-left: 1px solid black;
 }
 
@@ -23,11 +23,11 @@ html {
 
 ::-moz-selection {
   background: black;
-  color: #cdc7c2;
+  color: #dddddd;
 }
 
 ::selection {
   background: black;
-  color: #cdc7c2;
+  color: #dddddd;
 }
 /*# sourceMappingURL=master.css.map */

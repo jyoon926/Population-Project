@@ -7,7 +7,7 @@ html {
     overflow-x: hidden;
 }
 * {
-    font-family: 'roc-grotesk', sans-serif;
+    font-family: roc-grotesk;
     color: $light;
     margin: 0;
     padding: 0;
@@ -54,7 +54,7 @@ html {
             font-size: 1em;
         }
         div {
-            background: rgba(205, 199, 194,.85);
+            background: rgba(221, 221, 221,.85);
             padding: 50px;
             border: 1px solid $light;
         }
@@ -249,7 +249,7 @@ html {
             font-size: 1em;
         }
         div {
-            background: rgba(205, 199, 194,.85);
+            background: rgba(221, 221, 221,.85);
             padding: 50px;
             border: 1px solid $light;
         }
@@ -402,4 +402,8 @@ html {
         font-size: 1em;
         background: $dark;
     }
+}
+
+p, h2 {
+   // letter-spacing: .4px;
 }

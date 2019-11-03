@@ -7,7 +7,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #cdc7c2;
+  background: #dddddd;
   border-left: 1px solid black;
 }
 
@@ -23,16 +23,16 @@ html {
 
 ::-moz-selection {
   background: black;
-  color: #cdc7c2;
+  color: #dddddd;
 }
 
 ::selection {
   background: black;
-  color: #cdc7c2;
+  color: #dddddd;
 }
 
 html {
-  background: #cdc7c2;
+  background: #dddddd;
   margin: 0;
   padding: 0;
   font-size: 17px;
@@ -40,7 +40,7 @@ html {
 }
 
 * {
-  font-family: 'roc-grotesk', sans-serif;
+  font-family: roc-grotesk;
   color: black;
   margin: 0;
   padding: 0;
@@ -99,12 +99,12 @@ html {
     font-size: 1em;
   }
   #lander div {
-    background: rgba(205, 199, 194, 0.85);
+    background: rgba(221, 221, 221, 0.85);
     padding: 50px;
     border: 1px solid black;
   }
   #lander mark {
-    background: #cdc7c2;
+    background: #dddddd;
   }
   hr {
     width: 100vw;
@@ -114,7 +114,7 @@ html {
   }
   #section_1 {
     padding: 80px 10%;
-    background: #cdc7c2;
+    background: #dddddd;
   }
   #section_1 p {
     font-size: 1em;
@@ -123,7 +123,7 @@ html {
   .content {
     width: 80%;
     padding: 0 10%;
-    background: #cdc7c2;
+    background: #dddddd;
   }
   .content hr {
     width: 100vw;
@@ -192,7 +192,7 @@ html {
   }
   .content .section_2 .earths p {
     font-size: 100px;
-    color: #cdc7c2;
+    color: #dddddd;
   }
   .content .section_4 {
     margin: 80px 0;
@@ -277,7 +277,7 @@ html {
     text-align: center;
     padding: 15px;
     font-size: 1em;
-    background: #cdc7c2;
+    background: #dddddd;
   }
 }
 
@@ -334,12 +334,12 @@ html {
     font-size: 1em;
   }
   #lander div {
-    background: rgba(205, 199, 194, 0.85);
+    background: rgba(221, 221, 221, 0.85);
     padding: 50px;
     border: 1px solid black;
   }
   #lander mark {
-    background: #cdc7c2;
+    background: #dddddd;
   }
   hr {
     width: 100vw;
@@ -349,7 +349,7 @@ html {
   }
   #section_1 {
     padding: 30px 5%;
-    background: #cdc7c2;
+    background: #dddddd;
   }
   #section_1 p {
     font-size: 1em;
@@ -358,7 +358,7 @@ html {
   .content {
     width: 90%;
     padding: 0 5%;
-    background: #cdc7c2;
+    background: #dddddd;
   }
   .content hr {
     width: 100vw;
@@ -428,7 +428,7 @@ html {
   }
   .content .section_2 .earths p {
     font-size: 2.5em;
-    color: #cdc7c2;
+    color: #dddddd;
   }
   .content .section_4 {
     margin: 60px 0;
@@ -513,7 +513,7 @@ html {
     text-align: center;
     padding: 15px;
     font-size: 1em;
-    background: #cdc7c2;
+    background: #dddddd;
   }
 }
 /*# sourceMappingURL=main.css.map */
