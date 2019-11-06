@@ -471,6 +471,10 @@ html {
     width: 100%;
     border: 1px solid black;
   }
+  .content .section_4 .text .math #graph {
+    width: 100%;
+    height: 500px;
+  }
   .content .section_4 .more {
     display: -webkit-box;
     display: -ms-flexbox;
